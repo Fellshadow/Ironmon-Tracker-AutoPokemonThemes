@@ -22,11 +22,12 @@ Any issues feel free to let me know here or in the Ironmon discord server :)
    > ![image](https://user-images.githubusercontent.com/106463662/217638418-134923c8-2fb3-4f3f-b85b-cd5c8a3325c0.png)
    > ![image](https://user-images.githubusercontent.com/106463662/217638515-57e0c672-9da4-447c-aaaa-4fc3788a9f09.png)
 3. Load up Bizhawk and the Tracker, if you don't already have them running
-4. Click the gear icon on the tracker to open the settings menu and navigate to `Setup -> Extensions`
+4. Click the gear icon on the tracker to open the settings menu and navigate to `Extensions`
    > ![image](https://user-images.githubusercontent.com/106463662/217632595-80cd058d-7e43-4b3d-bd33-41654530b1aa.png)
-5. Click on the box next to "Allow custom code to run" to enable custom code extensions, then click on "Auto Pokémon Themes" to enable this extension
-   > If you do not see the extension, try clicking the "Refresh" button  
-   > If it still doesn't show up, check that you've placed the files in the right place
+5. Click on "Refresh" to check for installed extensions. "Auto Pokémon Themes" should pop up on the page.
+   > If it doesn't show up, check that you've placed the files in the right place
+   > ![image](https://user-images.githubusercontent.com/106463662/218172864-88ae5fd3-1a95-41cd-a9b0-0288ad69e696.png)
+6. Click on the box next to "Allow custom code to run" to enable custom code extensions, then click on "Auto Pokémon Themes" to enable this extension
    > ![image](https://user-images.githubusercontent.com/106463662/217633048-e6e3ee33-1faa-4bbd-9e23-2403d2a0ac2a.png)
 
 ## Usage
