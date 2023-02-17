@@ -1,6 +1,6 @@
 # Ironmon-Tracker Auto Pokémon Themes Extension
 
-[Installation](#installation) | [Usage](#usage)
+### [Installation](#installation) | [Usage](#usage) | [Changelog](#changelog)
 
 An extension for the [Gen 3 Ironmon-Tracker](https://github.com/besteon/Ironmon-Tracker) that automatically loads custom unique themes for each of your lead Pokémon
 
@@ -21,14 +21,13 @@ Any issues feel free to let me know here or in the Ironmon discord server :)
 2. Copy the contents of the `AutoThemes_Extension` folder into the `extensions` folder of your tracker
    > ![image](https://user-images.githubusercontent.com/106463662/217638418-134923c8-2fb3-4f3f-b85b-cd5c8a3325c0.png)
    > ![image](https://user-images.githubusercontent.com/106463662/217638515-57e0c672-9da4-447c-aaaa-4fc3788a9f09.png)
-3. Load up Bizhawk and the Tracker, if you don't already have them running
-4. Click the gear icon on the tracker to open the settings menu and navigate to `Extensions`
+3. Click the gear icon on the tracker to open the settings menu and navigate to `Extensions`
    > ![image](https://user-images.githubusercontent.com/106463662/217632595-80cd058d-7e43-4b3d-bd33-41654530b1aa.png)
-5. Click on "Refresh" to check for installed extensions. "Auto Pokémon Themes" should pop up on the page.
-   > If it doesn't show up, check that you've placed the files in the right place
+4. Enable "Allow custom code to run", if it is currently disabled, then click on "Refresh" to check for installed extensions
+   > If "Auto Pokémon Themes" doesn't show up, check that you've placed the files in the right place
+   > ![image](https://user-images.githubusercontent.com/106463662/219774930-48234814-5265-4cc0-8d54-548216a94a90.png)
    > ![image](https://user-images.githubusercontent.com/106463662/218172864-88ae5fd3-1a95-41cd-a9b0-0288ad69e696.png)
-6. Click on the box next to "Allow custom code to run" to enable custom code extensions, then click on "Auto Pokémon Themes" to enable this extension
-   > ![image](https://user-images.githubusercontent.com/106463662/217633048-e6e3ee33-1faa-4bbd-9e23-2403d2a0ac2a.png)
+5. Click on the "Auto Pokémon Themes" button to go to the extension's page, where you can enable the extension as well as check for updates
 
 ## Usage
 
@@ -37,6 +36,15 @@ Any issues feel free to let me know here or in the Ironmon discord server :)
   ```
     Bulbasaur 9AE1D3 9AE1D3 37E889 D4979E FFFFFF 309481 76D7C4 309481 76D7C4 309481 76D7C4 0 1
   ```
-- You **must** disable and re-enable the extension for changes to take effect
+- If the tracker is running, you **must** disable and re-enable the extension for changes to take effect
 - You can only add one theme per Pokémon (if you include multiple, it will use the one that is furthest down in the file)
 - The extension will attempt to find the closest matching Pokémon name, if it fails the lua console output will tell you which names it failed on
+
+## Changelog
+
+- v1.1:
+   - Added URL to view online from tracker menus
+   - Added update-checking functionality 
+- v1.0a:
+   - Fixed an issue where large `AutoThemeSets.txt` files took a while to load
+- v1.0: Initial Release
