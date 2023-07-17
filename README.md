@@ -1,4 +1,4 @@
-# Ironmon-Tracker Auto Pokémon Themes Extension
+![image](https://github.com/Fellshadow/Ironmon-Tracker-AutoPokemonThemes/assets/106463662/d2820726-4adf-4eab-9f98-473d5c4dce04)# Ironmon-Tracker Auto Pokémon Themes Extension
 
 ### [Installation](#installation) | [Usage](#usage) | [Changelog](#changelog)
 
@@ -26,22 +26,25 @@ Any issues feel free to let me know here or in the Ironmon discord server :)
 4. Enable "Allow custom code to run", if it is currently disabled, then click on "Refresh" to check for installed extensions
    > If "Auto Pokémon Themes" doesn't show up, check that you've placed the files in the right place
    > ![image](https://user-images.githubusercontent.com/106463662/219774930-48234814-5265-4cc0-8d54-548216a94a90.png)
-   > ![image](https://user-images.githubusercontent.com/106463662/218172864-88ae5fd3-1a95-41cd-a9b0-0288ad69e696.png)
+   > ![image](https://github.com/Fellshadow/Ironmon-Tracker-AutoPokemonThemes/assets/106463662/396cb33c-20c4-4696-85c6-a11e82727b3b)
 5. Click on the "Auto Pokémon Themes" button to go to the extension's page, where you can enable the extension as well as check for updates
 
 ## Usage
 
-- Add each theme you want for a Pokémon to the provided `AutoThemeSets.txt` file by adding the Pokémon name and the theme string on a single line
-  - The extension provides an example line by default:
-  ```
-    Bulbasaur 9AE1D3 9AE1D3 37E889 D4979E FFFFFF 309481 76D7C4 309481 76D7C4 309481 76D7C4 0 1
-  ```
+- As of v1.2, the provided `AutoThemeSets.txt` file now has a theme for every Pokémon (exported from the NDS tracker).
+   - If you wish to edit / remove any, simply change the theme string next to the Pokémon's name (or remove the line entirely).
+   - Each line should be the Pokémon name (in English) followed by the theme string, e.g.
+     ```
+     Bulbasaur 9AE1D3 9AE1D3 37E889 D4979E FFFFFF 309481 76D7C4 309481 76D7C4 309481 76D7C4 0 1
+     ```
 - If the tracker is running, you **must** disable and re-enable the extension for changes to take effect
 - You can only add one theme per Pokémon (if you include multiple, it will use the one that is furthest down in the file)
 - The extension will attempt to find the closest matching Pokémon name, if it fails the lua console output will tell you which names it failed on
 
 ## Changelog
 
+- v1.2:
+   - Changed the provided `AutoThemeSets.txt` file to include themes for all Pokémon exported from the NDS tracker's autothemes
 - v1.1:
    - Added URL to view online from tracker menus
    - Added update-checking functionality 
