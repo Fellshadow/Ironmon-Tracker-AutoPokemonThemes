@@ -1,4 +1,4 @@
-![image](https://github.com/Fellshadow/Ironmon-Tracker-AutoPokemonThemes/assets/106463662/d2820726-4adf-4eab-9f98-473d5c4dce04)# Ironmon-Tracker Auto Pokémon Themes Extension
+# Ironmon-Tracker Auto Pokémon Themes Extension
 
 ### [Installation](#installation) | [Usage](#usage) | [Changelog](#changelog)
 
