@@ -23,7 +23,7 @@ Any issues feel free to let me know here or in the Ironmon discord server :)
    > ![image](https://user-images.githubusercontent.com/106463662/217638515-57e0c672-9da4-447c-aaaa-4fc3788a9f09.png)
 3. Click the gear icon on the tracker to open the settings menu and navigate to `Extensions`
    > ![image](https://user-images.githubusercontent.com/106463662/217632595-80cd058d-7e43-4b3d-bd33-41654530b1aa.png)
-4. Enable "Allow custom code to run", if it is currently disabled, then click on "Refresh" to check for installed extensions
+4. Enable "Allow custom code to run", if it is currently disabled, then click on "Install New" to check for installed extensions
    > If "Auto Pokémon Themes" doesn't show up, check that you've placed the files in the right place
    > ![image](https://user-images.githubusercontent.com/106463662/219774930-48234814-5265-4cc0-8d54-548216a94a90.png)
    > ![image](https://github.com/Fellshadow/Ironmon-Tracker-AutoPokemonThemes/assets/106463662/396cb33c-20c4-4696-85c6-a11e82727b3b)
