@@ -10,7 +10,7 @@ As you play the game the extension will automatically load the associated theme 
 
 The tracker has a wiki page for information about using [Custom Code Extensions](https://github.com/besteon/Ironmon-Tracker/wiki/Tracker-Add-ons#custom-code-extensions)
 
-Any issues feel free to let me know here or in the Ironmon discord server :) 
+Any issues feel free to let me know here or in the Ironmon discord server :)
 
 ![Demo](https://user-images.githubusercontent.com/106463662/217630370-ebc1c5c7-23de-4d4a-99f5-5304ac3c163f.gif)
 
@@ -32,11 +32,13 @@ Any issues feel free to let me know here or in the Ironmon discord server :)
 ## Usage
 
 - As of v1.2, the provided `AutoThemeSets.txt` file now has a theme for every Pokémon (exported from the NDS tracker).
-   - If you wish to edit / remove any, simply change the theme string next to the Pokémon's name (or remove the line entirely).
-   - Each line should be the Pokémon name (in English) followed by the theme string, e.g.
-     ```
+  - If you wish to edit / remove any, simply change the theme string next to the Pokémon's name (or remove the line entirely).
+  - Each line should be the Pokémon name (in English) followed by the theme string, e.g.
+
+     ```txt
      Bulbasaur 9AE1D3 9AE1D3 37E889 D4979E FFFFFF 309481 76D7C4 309481 76D7C4 309481 76D7C4 0 1
      ```
+
 - If the tracker is running, you **must** disable and re-enable the extension for changes to take effect
 - You can only add one theme per Pokémon (if you include multiple, it will use the one that is furthest down in the file)
 - The extension will attempt to find the closest matching Pokémon name, if it fails the lua console output will tell you which names it failed on
@@ -44,10 +46,10 @@ Any issues feel free to let me know here or in the Ironmon discord server :)
 ## Changelog
 
 - v1.2:
-   - Changed the provided `AutoThemeSets.txt` file to include themes for all Pokémon exported from the NDS tracker's autothemes
+  - Changed the provided `AutoThemeSets.txt` file to include themes for all Pokémon exported from the NDS tracker's autothemes
 - v1.1:
-   - Added URL to view online from tracker menus
-   - Added update-checking functionality 
+  - Added URL to view online from tracker menus
+  - Added update-checking functionality
 - v1.0a:
-   - Fixed an issue where large `AutoThemeSets.txt` files took a while to load
+  - Fixed an issue where large `AutoThemeSets.txt` files took a while to load
 - v1.0: Initial Release

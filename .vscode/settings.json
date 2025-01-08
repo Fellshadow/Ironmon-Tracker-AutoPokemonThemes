@@ -1,0 +1,15 @@
+{
+	"Lua.diagnostics.globals": [
+		// Tracker globals
+		"Constants",
+		"Utils",
+		"Main",
+		"Theme",
+		"Tracker",
+		"FileManager",
+		"PokemonData",
+		"Program"
+	],
+	"Lua.runtime.version": "Lua 5.1",
+	"Lua.workspace.checkThirdParty": false
+}
